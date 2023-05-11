@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="answer">
+        <item name="android:background">@drawable/topcornres</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="good">
+        <item name="android:background">@drawable/topcornres</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="backgroundColor">#99cc00</item>
+    </style>
+
+
+</resources>

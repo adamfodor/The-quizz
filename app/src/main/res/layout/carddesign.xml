@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="20dp"
+    android:padding="5dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D2D3D3D3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/question"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/tv_ans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/topcornres"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/option_1"
+            android:textAlignment="center"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/tv_ans2"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/option_2"
+            android:textAlignment="center"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/tv_ans3"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/option_3"
+            android:textAlignment="center"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/tv_ans4"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/option_4"
+            android:textAlignment="center"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">The Quizz</string>
+    <string name="the_quizz">The Quizz</string>
+    <string name="play">Play</string>
+    <string name="questions">Questions</string>
+    <string name="add_new_question">Add new question</string>
+    <string name="question">Question</string>
+    <string name="option_4">Option 4</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="answer">Answer</string>
+    <string name="delete_button">Delete button</string>
+    <string name="add_button">Add Button</string>
+    <string name="place_for_question">Place for question</string>
+    <string name="secon_answer">Secon Answer</string>
+    <string name="fourth_answer">Fourth answer</string>
+    <string name="third_answer">Third answer</string>
+    <string name="first_answer">First answer</string>
+    <string name="place_for_the_third_answer">Place for the third answer</string>
+    <string name="place_for_the_fourth_answer">Place for the fourth answer</string>
+    <string name="place_for_the_second_answer">Place for the second answer</string>
+    <string name="place_for_the_first_answer">Place for the first answer</string>
+    <string name="place_for_the_question">Place for the question</string>
+    <string name="points">Points</string>
+</resources>
