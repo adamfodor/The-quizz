@@ -36,7 +36,7 @@ class AddQuestion : AppCompatActivity() {
 
     private fun addQ() {
         val q = binidng.etQuestion.text.toString()
-        val ans1 =binidng.etOpt1.toString()
+        val ans1 =binidng.etOpt1.text.toString()
         val ans2 = binidng.etOpt2.text.toString()
         val ans3 = binidng.etOpt3.text.toString()
         val ans4 = binidng.etOpt4.text.toString()
@@ -51,7 +51,7 @@ class AddQuestion : AppCompatActivity() {
         } else if (ans_opt4.isChecked) {
             answer = 4
         }
-        if (binidng.ansOpt1.isChecked || binidng.ansOpt2.isChecked || binidng.ansOpt4.isChecked || binidng.ansOpt4.isChecked) {
+        if (binidng.ansOpt1.isChecked || binidng.ansOpt2.isChecked || binidng.ansOpt3.isChecked || binidng.ansOpt4.isChecked) {
             if (isEmpty(q) && isEmpty(ans1) && isEmpty(ans2) && isEmpty(ans4) && isEmpty(ans4)) {
                 val temp = Question()
                 temp.setQuestion(q)
